@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tóparti kikapcsolódás</title>
+    <meta name="description" content="Fedezze fel gyönyörű tavainkat, amelyek mellett valódi élmény a pihenés.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="content">
+        <header>
+            <img src="img/balaton.jpg" alt="Balatoni strandolás">
+        </header>
+        <div class="grid-container">
+            <aside id="oldalsav" class="grid-item">
+                <ul>
+                    <li><a href="#balaton">Balaton</a></li>
+                    <li><a href="#tisza">Tisza-tó</a></li>
+                    <li><a href="#szelidi">Szelidi-tó</a></li>
+                </ul>
+
+                <hr>
+
+                <h2>Kérem, töltse ki<br>a jelentkezési űrlapot!</h2>
+                <form class="urlap">
+                    <label for="nev">Név:</label>
+                    <input type="text" id="nev" name="nev" maxlength="25" required>
+
+                    <label for="email">E-mail cím:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefonszam">Telefonszám:</label>
+                    <input type="tel" id="telefonszam" name="telefonszam" required>
+
+                    <label for="erdekli">Melyik tó érdekli?</label>
+                    <select id="erdekli" name="erdekli" required>
+                        <option value="Balaton">Balaton</option>
+                        <option value="Tisza-tó">Tisza-tó</option>
+                        <option value="Szelidi-tó">Szelidi-tó</option>
+                    </select><br>
+
+                    <p class="szallastipus">Milyen szállást keres?</p><br>
+                    <div class="check-dobozok">
+                        <input type="checkbox" id="szalloda" name="szalloda">
+                        <label for="szalloda">Szálloda</label>
+                        <br>
+                        <input type="checkbox" id="apartmanhaz" name="apartmanhaz">
+                        <label for="apartmanhaz">Apartmanház</label>
+                        <br>
+                        <input type="checkbox" id="kemping" name="kemping">
+                        <label for="kemping">Kemping</label>
+
+                    </div>
+
+
+                    <p class="ellatas-cim">Milyen ellátást szeretne?</p><br>
+                    <div class="radio-gombok">
+                        <input type="radio" id="teljes" name="ellatas" value="teljes">
+                        <label for="teljes">Teljes panzió</label>
+                        <br />
+                        <input type="radio" id="felpanzio" name="ellatas" value="felpanzio">
+                        <label for="felpanzio">Fél panzió</label>
+                        <br />
+                        <input type="radio" id="csakreggeli" name="ellatas" value="csakreggeli">
+                        <label for="csakreggeli">Csak reggeli</label>
+                        <br />
+                        <input type="radio" id="nemkerek" name="ellatas" value="nemkerek">
+                        <label for="nemkerek">Nem kérek ellátást</label>
+                    </div>
+
+                    <label for="uzenet">Egyéb üzenet:</label>
+                    <textarea id="uzenet" name="uzenet" rows="4" maxlength="200"></textarea>
+
+                    <input class="submit" type="submit" value="Mehet">
+                </form>
+            </aside>
+
+
+            <section id="balaton" class="grid-item">
+
+                <h3><i>Balaton</i></h3><br>
+                <img src="img/vitorlas.jpg" alt="Balatoni vitorlás">
+                <p>
+                    A Balaton és környéke Magyarország legnépszerűbb üdülőhelye, amely vonzó úticél a hazai és külföldi
+                    turisták számára egyaránt. Nem véletlenül van így, hiszen vízparti kikapcsolódás, történelmi
+                    emlékek, különleges természeti értékek, remek kirándulási lehetőségek várják a látogatókat a "magyar
+                    tengernél".
+                </p><br>
+                <p>
+                    A Balaton vidékén szőlőskertekkel díszített dombok, hosszú ideje szunnyadó vulkánok,
+                    megkövesedett lávaoszlopok, hűs árnyékot nyújtó erdők, zöld ligetek, virágzó mezők, rétek váltják
+                    egymást. A környék gazdag botanikai és földtani értékeit, az erdők különleges állatvilágát a
+                    Balaton-felvidéki Nemzeti Park óvja. A Balatonon évről évre egyre több fesztivál, rendezvény
+                    gondoskodik a kellemes időtöltésről. Szüreti fesztiválok, borhetek, borünnepek várják a
+                    borkedvelőket és a mulatozni vágyókat.
+                </p><br>
+                <p>
+                    Nevezetes esemény a minden év július utolsó szombatján megrendezésre kerülő balatonfüredi Anna-bál.
+                    Remek programok várják a Balaton vendégeit nyáron a Művészetek Völgye néven ismert kulturális
+                    fesztiválon. A környékbeli lovardák és lovastanyák csikós-, vagy huszárbemutatóval szórakoztatják az
+                    érdeklődőket. Nagy népszerűségnek örvendenek vitorlás- és Balaton-átúszó versenyek is.
+                </p>
+
+            </section>
+
+            <section id="tisza" class="grid-item">
+
+                <h3><i>Tisza-tó</i></h3><br>
+                <img src="img/tiszato1.jpg" alt="Tisza-tó">
+                <p>
+                    A Tisza-tó Magyarország második legnagyobb tava, amely az Alföld északi részén terül el. 127
+                    km<sup>2</sup>-én számtalan sziget, holtág, és sekély kis csatorna váltja egymást a hatalmas, nyílt
+                    vízterületekkel, úgynevezett mozaikos tájat formálva. A Tisza-tó a Hortobágyi Nemzeti Park negyedik
+                    bemutató területe, s így 1999 óta az UNESCO Világörökség része. </p><br>
+
+                <p>
+                    Az Európai Bizottság 2010-ben ezt a térséget „Kiváló Európai Desztinációnak" nyilvánította, és
+                    „Magyarország legígéretesebb természetes vizű desztinációja" címet adományozta a Tisza-tónak. A
+                    Tisza-tónál a kikapcsolódás is legalább annyira változatos, mint maga a táj. A természetjáráson
+                    kívül a nyugodt strandolástól a vízisportok kipróbálásáig számtalan lehetőség kínálkozik. </p><br>
+
+                <p>A Tisza-tavi Túraközpont Hálózat segítségével megszervezhető a kirándulás, valamint csónakok és
+                    kerékpárok bérelhetők. Út közben barátságos kikötők, vendégházak és panziók várják az érkezőket.
+                    A tó kisebb szigetein csónakkal megközelíthető madár-megfigyelőhelyeket alakítottak ki, a
+                    fészkelőhelyek közelében, így a vízitúrák alatt alkalom nyílik a madárvilág tanulmányozására.
+                </p>
+            </section>
+
+            <section id="szelidi" class="grid-item">
+
+                <h3><i>Szelidi-tó</i></h3><br>
+                <img src="img/szelidi1.jpg" alt="Szelidi-tó">
+                <p>
+                    Hazánk egyik legszebb területén, a Kiskunság legkedveltebb üdülőhelyén kicsik és nagyok egyaránt
+                    átélhetik a szabadvízi kikapcsolódás örömeit. A Szelidi-tó hazánk ötödik legnagyobb természetes
+                    állóvize, ahol fövenyes strandok, megannyi program és páratlan természeti környezet segít
+                    megfeledkezni a szürke hétköznapokról. </p><br>
+                <p>
+                    Legyen szó családi nyaralásról, egy dél-alföldi kerékpártúráról vagy egyszerűen csak egy hétvégi
+                    pecázásról, Dunapataj gyöngyszeme minden téren jelesre vizsgázik. A Szelidi-tó ma tó hármas
+                    rendeltetésű, ezek az üdülés, a horgászat és a természetvédelem. </p><br>
+
+                <p> A természetvédelem célja a tó különleges algavilágának, a parti zóna és a környező területek
+                    vegetációjának fenntartása. Amióta a tó feltöltésére szánt vizet a szomszédos gyepeken „pihentetik”,
+                    gazdagodott a tó és környékének madárvilága. Már nem csak a vékony nádszegélyben költő nádi énekesek
+                    énekében gyönyörködhetünk, hanem megcsodálhatjuk az átvonuló partimadarak és récék tömegeit is.
+                </p>
+
+            </section>
+
+
+        </div>
+
+
+        <footer>
+            <p>&copy; Copyright 2023 Gulyas Agi</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

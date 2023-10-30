@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D7B520;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px
+    }
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #ddd;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header img {
+    max-width: 98%;
+    border: 2px solid rgb(7, 7, 112);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+    
+#oldalsav {
+    grid-area: oldalsav;
+    background-color: #5B9BD5;
+    border: 2px solid rgb(7, 7, 112);
+    border-radius: 10px;
+}
+
+#balaton {
+    grid-area: balaton;
+}
+
+#tisza {
+    grid-area: tisza;
+}
+
+#szelidi {
+    grid-area: szelidi;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "oldalsav balaton"
+        "oldalsav tisza"
+        "oldalsav szelidi";
+    grid-gap: 10px;
+
+}
+
+
+section {
+    border:2px solid rgb(7, 7, 112);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 10px 5px 2px;
+    text-align: justify;
+    color: rgb(7, 7, 112);
+}
+
+h3 {
+    color: rgb(7, 7, 112)
+}
+
+#balaton {
+    background-color: #FBE5D6;
+}
+
+#tisza {
+    background-color: #FFF2CC;
+}
+
+#szelidi {
+    background-color: #DEEBF7;
+}
+
+
+section img {
+    max-width: 100%;
+    float:right;
+    padding: 5px 10px 5px 10px;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 50px 10px;
+    color: rgb(7, 7, 112);
+}
+
+aside {
+    margin: 5px 0px 5px 10px;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color:white;
+}
+
+li a:hover {
+    background-color: aqua;
+    color:rgb(7, 7, 112);
+    
+}
+
+hr {
+    border: 3px solid white;
+    margin-top: 20px;
+
+}
+
+.ellatas-cim, .szallastipus {
+    display: block;
+}
+
+
+select {
+    display: block;
+}
+label, .ellatas-cim, .szallastipus {
+    font-weight: 700;
+}
+
+.urlap {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 12px;
+    color: rgb(7, 7, 112);
+}
+
+.urlap input[type=text], .urlap input[type=tel], .urlap input[type=email], select {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.radio-gombok, .check-dobozok {
+    margin-bottom: 32px;
+}
+
+input[type=submit] {
+    margin-top: 24px;
+    font-size: 1rem;
+    padding: 8px 0px;
+}
+
+.submit:hover {
+    background-color: rgb(7, 7, 112);
+    color: white;
+}
+
+footer {
+    border:2px solid rgb(7, 7, 112);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 10px 5px 10px;
+    background-color: #e7e6e6;
+}
