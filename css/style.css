@@ -108,6 +108,7 @@ div a:hover {
     border-radius: 20px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 25px;
     align-items: center;
     padding: 15px;
     font-family: Roboto;
@@ -117,4 +118,16 @@ div a:hover {
 
 #hazijs-1:hover {
     background-color: greenyellow;
+}
+
+.jslink {
+    text-decoration: none;
+    font-size: larger;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.jslink:hover {
+    background-color: #f7df1e;
+    font-weight: 700;
 }

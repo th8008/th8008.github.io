@@ -64,6 +64,10 @@ if (birthYearUser >= legalAgeYear) {
     alert("Sajnos, ehhez a tartalomhoz Ön nem férhet hozzá!");
 }
 
+else if (birthYearUser < 1910) {
+    alert("Sajnos, ehhez a tartalomhoz Ön nem férhet hozzá!");
+}
+
 else {
     alert("Köszönjük! Ön hozzáférhet ehhez a tartalomhoz!");
 }
