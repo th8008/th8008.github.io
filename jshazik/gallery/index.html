@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Képgaléria</title>
+    <meta name="description" content="Magasépítő gépek és berendezések építkezésekhez és magasban végzett munkákhoz">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+
+<body>
+
+    <div class="img-container">
+
+        <div class="gallery-img">
+            <a class="image-btn">
+                <img src="img/orange-blue.jpg" alt="orange-blue">
+            </a>
+        </div>
+
+        <div class="gallery-img">
+            <a class="image-btn">
+                <img src="img/piros1.jpg" alt="piros-1">
+            </a>
+        </div>
+
+        <div class="gallery-img">
+            <a class="image-btn">
+                <img src="img/piros2.jpg" alt="piros-2">
+            </a>
+        </div>
+
+        <div class="gallery-img">
+            <a class="image-btn">
+                <img src="img/piros3.jpg" alt="piros-3">
+            </a>
+        </div>
+
+
+        <div class="gallery-img">
+            <a class="image-btn">
+                <img src="img/blue.jpg" alt="kék">
+            </a>
+        </div>
+
+        <div class="gallery-img">
+            <a class="image-btn">
+                <img src="img/reflektoros.jpg" alt="reflektoros">
+            </a>
+        </div>
+
+        <div class="gallery-img">
+            <a class="image-btn">
+                <img src="img/piros4.jpg" alt="piros-4">
+            </a>
+        </div>
+
+
+        <div class="gallery-img">
+            <a class="image-btn">
+                <img src="img/piros5.jpg" alt="piros-5">
+            </a>
+        </div>
+
+        <div class="gallery-img">
+            <a class="image-btn">
+                <img src="img/blue2.jpg" alt="kék-2">
+            </a>
+        </div>
+
+        <div class="gallery-img">
+            <a class="image-btn">
+                <img src="img/blue3.jpg" alt="kék-3">
+            </a>
+        </div>
+
+
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image" src="" alt="Nagy méretű kép">
+    </div>
+
+
+
+    <script>
+        var modal = $("#myModal");
+
+        var imgBtns = $(".image-btn");
+        var modalImg = $("#modal-image");
+
+        imgBtns.click((e) => {
+            const object = $(e.target);
+            modalImg.attr("src", object.attr("src"));
+
+            modal.css("display", "block");
+        })
+
+
+        $("#myModal .close").click(() => {
+            modal.css("display", "none")
+        })
+
+
+    </script>
+
+
+
+</body>
+
+</html>

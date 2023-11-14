@@ -131,3 +131,23 @@ div a:hover {
     background-color: #f7df1e;
     font-weight: 700;
 }
+
+#hazijs-2 {
+    display: block;
+    background-color: #f7df1e;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    align-items: center;
+    padding: 15px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#hazijs-2:hover {
+    background-color: greenyellow;
+}
