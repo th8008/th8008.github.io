@@ -151,3 +151,31 @@ div#hazijs-2 {
 #hazijs-2:hover {
     background-color: greenyellow;
 }
+
+div#exam {
+    display: block;
+    background-color: rgb(2, 73, 2);
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    align-items: center;
+    padding: 15px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div#exam a {
+    color: #ece3b5;
+}
+
+#exam:hover {
+    background-color: greenyellow;
+}
+
+#exam:hover a {
+    color: black;
+}

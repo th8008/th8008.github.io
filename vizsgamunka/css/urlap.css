@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.csik {
+    display: flex;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+    height: 10vh;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+#phone {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 30px;
+}
+
+#tel {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#envelope {
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    width: 30px;
+}
+
+#mail {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+#offer {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+.csik button {
+    background-color: orange;
+    padding-bottom: 10px;
+    height: auto;
+    border: none;
+    border-radius: 12px;
+    height: 35px;
+    cursor: pointer;
+}
+
+
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar img {
+    max-height: 80%;
+    margin-right: auto;
+}
+
+
+
+
+.navbar {
+    background-color: white;
+    height: 8vh;
+    width: 100%;
+    padding: 10px 5%;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar a:hover {
+    color: #3766b6;
+    transition: 0.2s;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+}
+
+.navbar a:hover::after {
+    transition: 0.2s;
+    width: 100%;
+}
+
+
+h1 {
+
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    margin-top: 20vh;
+
+}
+
+
+
+.urlap {
+    justify-content: center;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    height: 1500px;
+}
+
+.urlap iframe {
+    width: clamp(200px, 100%, 800px);
+    flex-grow: 1;
+    height: 100%;
+}
+
+footer {
+    background-color: rgb(46, 46, 46);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10vh;
+    padding: 20px;
+    line-height: 150%;
+
+}
