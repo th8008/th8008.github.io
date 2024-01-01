@@ -117,17 +117,18 @@ header {
     width: 100%;
 }
 
-
-
 h1 {
 
     padding: 10px;
     font-size: 50px;
     color: white;
     text-align: center;
-    background-color: rgb(69, 68, 68);
+    background-color: rgb(231, 155, 14);
+    width: 100vw;
+    margin-top: 100px;
 
 }
+
 
 .wrapper {
     display: flex;
