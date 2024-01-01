@@ -298,6 +298,21 @@ footer {
         display: block;
     }
 
+    #envelope,
+    #mail {
+        display: none;
+    }
+
+    div.csik {
+        gap: 2vw;
+    }
+
+    .navbar img {
+        max-height: 80%;
+        margin-left: 5vw;
+    }
+
+
     .sidebar a {
         text-decoration: none;
         line-height: 250%;
