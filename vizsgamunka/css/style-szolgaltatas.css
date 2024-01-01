@@ -154,7 +154,7 @@ header {
     background-color: white;
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba (0, 0, 0, 0.2);
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -162,10 +162,13 @@ header {
 
 .sidebar a {
     width: 100%;
+    text-decoration: none;
+    line-height: 250%;
+    padding-left: 20px;
 }
 
 .menu-button {
-    display: none;
+    display: none !important;
 }
 
 h1 {
@@ -223,7 +226,7 @@ footer {
     }
 
     .menu-button {
-        display: block;
+        display: block !important;
     }
 
     #envelope,
@@ -241,11 +244,6 @@ footer {
     }
 
 
-    .sidebar a {
-        text-decoration: none;
-        line-height: 250%;
-        padding-left: 20px;
-    }
 
     .service {
         flex-direction: column;

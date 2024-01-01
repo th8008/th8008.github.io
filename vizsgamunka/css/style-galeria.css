@@ -149,11 +149,15 @@ header {
 
 .sidebar a {
     width: 100%;
+    text-decoration: none;
+    line-height: 250%;
+    padding-left: 20px;
 }
 
 .menu-button {
-    display: none;
+    display: none !important;
 }
+
 
 h1 {
 
@@ -341,7 +345,7 @@ footer {
     }
 
     .menu-button {
-        display: block;
+        display: block !important;
     }
 
     #envelope,
@@ -358,12 +362,6 @@ footer {
         margin-left: 5vw;
     }
 
-
-    .sidebar a {
-        text-decoration: none;
-        line-height: 250%;
-        padding-left: 20px;
-    }
 }
 
 @media (max-width: 400px) {
