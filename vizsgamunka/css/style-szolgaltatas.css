@@ -190,18 +190,20 @@ h1 {
 
 .service {
     display: flex;
-    justify-content: space-around;
-    height: 60vh;
-    padding: 10vh;
+    justify-content: center;
+    gap: 30px;
+    padding: 100px 16px 20px 16px;
+
 }
 
 .szolg {
     display: flex;
-    justify-content: space-around;
-    height: 60vh;
-    padding: 10vh;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 16px 100px 16px;
 
 }
+
 
 
 footer {
@@ -244,6 +246,21 @@ footer {
         line-height: 250%;
         padding-left: 20px;
     }
+
+    .service {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .szolg {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
 }
 
 @media (max-width: 400px) {
