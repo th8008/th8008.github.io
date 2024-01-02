@@ -243,11 +243,14 @@ footer {
         margin-left: 5vw;
     }
 
-
+    h1 {
+        font-size: 40px;
+    }
 
     .service {
         flex-direction: column;
         align-items: center;
+        MAX-width: 100vw;
 
 
     }
@@ -255,6 +258,8 @@ footer {
     .szolg {
         flex-direction: column;
         align-items: center;
+        max-width: 100vw;
+
 
     }
 

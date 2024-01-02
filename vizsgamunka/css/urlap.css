@@ -181,12 +181,16 @@ footer {
 
     .navbar img {
         max-height: 80%;
-        margin-left: 5vw;
+        margin-left: 32vw;
     }
 
     .navbar a {
         display: none;
     }
 
+
+    h1 {
+        font-size: 40px;
+    }
 
 }
